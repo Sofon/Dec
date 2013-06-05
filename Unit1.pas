@@ -66,7 +66,7 @@ begin
    sgDec.Cells[2,0]:='Срок';
    sgDec.Cells[3,0]:='Количество';
 
-   sgDec.ColWidths[0]:=250;
+   sgDec.ColWidths[0]:=150;
    sgDec.ColWidths[1]:=150;
    sgDec.ColWidths[2]:=85;
    sgDec.ColWidths[3]:=85;
@@ -84,7 +84,7 @@ begin
    sgDec.Cells[2,0]:='Срок';
    sgDec.Cells[3,0]:='Количество';
 
-   sgDec.ColWidths[0]:=250;
+   sgDec.ColWidths[0]:=150;
    sgDec.ColWidths[1]:=150;
    sgDec.ColWidths[2]:=85;
    sgDec.ColWidths[3]:=85;

@@ -9,7 +9,7 @@ Type
      Count:integer;
   end;
 
-  TDec = record // моделирование стека на основе динамического массива
+  TDec = record // моделирование дека на основе динамического массива
      Mas: array of TInfo;
      Count, MaxCount : integer;
   end;
@@ -18,23 +18,23 @@ Type
 function IsEmpty(aDec: TDec): boolean;
 // начальное значение
 procedure InitDec(var aDec: TDec);
-// добавление элемента в вершину стека
+// добавление элемента в вершину дека
 procedure AddTop(var aDec: TDec; aData: TInfo);
-// добавление элемента в голову стека
+// добавление элемента в голову дека
 procedure AddBottom(var aDec: TDec; aData: TInfo);
-// узнать информационную часть вершины Ќ≈пустого стека
+// узнать информационную часть вершины Ќ≈пустого дека
 function GetTop(aDec: TDec): TInfo;
-// узнать информационную часть головы Ќ≈пустого стека
+// узнать информационную часть головы Ќ≈пустого дека
 function GetBottom(aDec: TDec): TInfo;
-// удаление элемента из вершины Ќ≈пустого стека
+// удаление элемента из вершины Ќ≈пустого дека
 procedure DelTop(var aDec: TDec);
-// удаление элемента из головы Ќ≈пустого стека
+// удаление элемента из головы Ќ≈пустого дека
 procedure DelBottom(var aDec: TDec);
-// удаление всех элементов стека
+// удаление всех элементов дека
 procedure FreeDec(var aDec: TDec);
 
 
-// процедура перекладывани€ элемента из одного стека в другой
+// процедура перекладывани€ элемента из одного дека в другой
 procedure TopToTop(var aDec1, aDec2: TDec);
 
 
